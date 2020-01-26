@@ -18,6 +18,7 @@ requirements:
     - python >=3.6
     - pip
     - setuptools
+    - setuptools_scm
     - numpy >=1.14
     - scipy >=0.19
     - astropy >=3.1
