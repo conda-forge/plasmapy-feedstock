@@ -1,4 +1,4 @@
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: plasmapy
@@ -6,9 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/plasmapy/plasmapy-{{ version }}.tar.gz
-  sha256: 5048e95700274836443b1f7e533622d7ea7f159b93e938991b7edb7fe43eccc6
-  patches:
-    - setup.cfg.patch
+  sha256: 0b0a78f71635c873b536e884ea0ce35d25b0358415b222a36876f92a42481cf7
 
 build:
   number: 0
@@ -16,25 +14,21 @@ build:
   skip: True    # [py < 36]
 
 requirements:
-  build:
-    - {{ compiler("c") }}
-    - {{ compiler("cxx") }}
   host:
     - python
     - pip
-    - cython >=0.28
     - setuptools
-    - numpy >=1.13
+    - numpy >=1.14
     - scipy >=0.19
-    - astropy >=2.0
+    - astropy >=3.1
     - colorama >=0.3
   run:
     - python
     - {{ pin_compatible('numpy') }}
     - scipy >=0.19
-    - astropy >=2.0
+    - astropy >=3.1
     - colorama >=0.3
-    - pytest
+    - pytest >= 5.1
     - mpmath >=1.0
     - h5py >=2.8
     - lmfit >=0.9.7
@@ -52,6 +46,7 @@ test:
     - plasmapy.utils
   commands:
     - python -c "import plasmapy, sys; sys.exit(plasmapy.test())"
+    - pytest --pyargs plasmapy
 
 about:
   home: https://github.com/PlasmaPy/PlasmaPy
