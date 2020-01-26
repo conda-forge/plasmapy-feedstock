@@ -38,13 +38,14 @@ test:
     - plasmapy
     - plasmapy.atomic
     - plasmapy.classes
-    - plasmapy.mathematics
-    - plasmapy.physics
-    - plasmapy.transport
+    - plasmapy.formulary
     - plasmapy.utils
+    - plasmapy.diagnostics
+    - plasmapy.simulation
   commands:
-    - python -c "import plasmapy, sys; sys.exit(plasmapy.test())"
     - pytest --pyargs plasmapy
+  requires:
+    - pytest
 
 about:
   home: https://github.com/PlasmaPy/PlasmaPy
