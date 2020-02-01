@@ -9,7 +9,7 @@ source:
   sha256: 0b0a78f71635c873b536e884ea0ce35d25b0358415b222a36876f92a42481cf7
 
 build:
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
   noarch: python
 
@@ -31,7 +31,6 @@ requirements:
     - h5py >=2.8
     - lmfit >=0.9.7
     - matplotlib >=2.0
-    - pytest-astropy
 
 test:
   imports:
