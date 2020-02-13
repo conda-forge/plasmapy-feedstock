@@ -9,7 +9,7 @@ source:
   sha256: d2af2dd4de77797c5d26e2ae2ca894619f18c117f61aba5ffcb8e3eaff319fed
 
 build:
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
   noarch: python
 
@@ -29,7 +29,7 @@ requirements:
     - mpmath >=1.0
     - h5py >=2.8
     - lmfit >=0.9.7
-    - matplotlib >=2.0
+    - matplotlib-base >=2.0
 
 test:
   imports:
