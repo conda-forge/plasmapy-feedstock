@@ -34,8 +34,8 @@ requirements:
 test:
   imports:
     - plasmapy
-    - plasmapy.atomic
-    - plasmapy.classes
+    - plasmapy.particles
+    - plasmapy.plasma
     - plasmapy.formulary
     - plasmapy.utils
     - plasmapy.diagnostics
