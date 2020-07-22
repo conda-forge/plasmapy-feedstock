@@ -5,7 +5,7 @@ Home: https://github.com/PlasmaPy/PlasmaPy
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Python package for plasma physics
 
