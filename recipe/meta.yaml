@@ -1,4 +1,4 @@
-{% set version = "0.4.0" %}
+{% set version = "0.5.0" %}
 
 package:
   name: plasmapy
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/plasmapy/plasmapy-{{ version }}.tar.gz
-  sha256: 1d534cb318022fabec52572b90dab0dc73bfbc0b83254a98cef789609ec4d35f
+  sha256: 74d0cde7f7c9fcb056bc4978fd0f743c768a2ef51f29a04819cd36d8d4e23afa
 
 build:
   number: 0
