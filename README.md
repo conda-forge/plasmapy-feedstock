@@ -5,9 +5,13 @@ Home: https://github.com/PlasmaPy/PlasmaPy
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/plasmapy-feedstock/blob/master/LICENSE.txt)
 
 Summary: Python package for plasma physics
+
+Development: https://github.com/plasmapy/plasmapy
+
+Documentation: http://plasmapy.readthedocs.io/en/docs/
 
 PlasmaPy is a community-developed and community-driven Python package for plasma physics.
 
@@ -118,4 +122,5 @@ Feedstock Maintainers
 
 * [@SolarDrew](https://github.com/SolarDrew/)
 * [@StanczakDominik](https://github.com/StanczakDominik/)
+* [@rocco8773](https://github.com/rocco8773/)
 
