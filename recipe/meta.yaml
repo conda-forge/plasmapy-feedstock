@@ -21,7 +21,7 @@ requirements:
     - setuptools_scm
     - numpy >=1.14
   run:
-    - python >=3.6
+    - python >=3.7
     - {{ pin_compatible('numpy') }}
     - scipy >=0.19
     - astropy >=3.1
