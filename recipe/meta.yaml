@@ -25,11 +25,14 @@ requirements:
     - {{ pin_compatible('numpy') }}
     - scipy >=0.19
     - astropy >=3.1
-    - colorama >=0.3
     - mpmath >=1.0
     - h5py >=2.8
     - lmfit >=0.9.7
     - matplotlib-base >=2.0
+    - pandas >=1.0
+    - xarray >=0.14
+    - cached-property >=1.5.2
+    - tqdm >=4.56.0
 
 test:
   imports:
