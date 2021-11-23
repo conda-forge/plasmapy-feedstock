@@ -15,16 +15,16 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.7
     - pip
     - setuptools
     - setuptools_scm
-    - numpy >=1.14
+    - numpy >=1.18.1
   run:
     - python >=3.7
     - {{ pin_compatible('numpy') }}
-    - scipy >=0.19
-    - astropy >=3.1
+    - scipy >=1.2
+    - astropy >=4.0
     - mpmath >=1.0
     - h5py >=2.8
     - lmfit >=0.9.7
@@ -32,7 +32,7 @@ requirements:
     - pandas >=1.0
     - xarray >=0.14
     - cached-property >=1.5.2
-    - tqdm >=4.56.0
+    - tqdm >=4.41.0
     - hypothesis
     - pytest-regressions
 
@@ -62,6 +62,5 @@ about:
 
 extra:
   recipe-maintainers:
-    - SolarDrew
     - StanczakDominik
     - rocco8773
