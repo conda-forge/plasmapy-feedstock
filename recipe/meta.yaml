@@ -1,4 +1,4 @@
-{% set version = "0.6.0" %}
+{% set version = "0.7.0" %}
 
 package:
   name: plasmapy
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/plasmapy/plasmapy-{{ version }}.tar.gz
-  sha256: 77c299c25b844a5cd77d01b5c92223606df72529f85ea1624633741f36216882
+  sha256: a2d36f6b43e6f29435c0bf3b2a754889f119f29ac8d8e862f269855face75ba2
 
 build:
   number: 0
@@ -15,16 +15,16 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.7
     - pip
     - setuptools
     - setuptools_scm
-    - numpy >=1.14
+    - numpy >=1.18.1
   run:
     - python >=3.7
     - {{ pin_compatible('numpy') }}
-    - scipy >=0.19
-    - astropy >=3.1
+    - scipy >=1.2
+    - astropy >=4.0
     - mpmath >=1.0
     - h5py >=2.8
     - lmfit >=0.9.7
@@ -32,7 +32,9 @@ requirements:
     - pandas >=1.0
     - xarray >=0.14
     - cached-property >=1.5.2
-    - tqdm >=4.56.0
+    - tqdm >=4.41.0
+    - hypothesis
+    - pytest-regressions
 
 test:
   imports:
@@ -44,7 +46,7 @@ test:
     - plasmapy.diagnostics
     - plasmapy.simulation
   commands:
-    - pytest --pyargs plasmapy
+    - pytest --pyargs plasmapy -k "not test_grid_methods"
   requires:
     - pytest
 
@@ -60,6 +62,5 @@ about:
 
 extra:
   recipe-maintainers:
-    - SolarDrew
     - StanczakDominik
     - rocco8773
