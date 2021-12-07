@@ -46,7 +46,7 @@ test:
     - plasmapy.diagnostics
     - plasmapy.simulation
   commands:
-    - pytest --pyargs plasmapy
+    - pytest --pyargs plasmapy -k "not test_grid_methods"
   requires:
     - pytest
 
