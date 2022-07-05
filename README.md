@@ -7,11 +7,11 @@ Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/plasmapy-feedstock/blob/master/LICENSE.txt)
 
-Summary: Python package for plasma physics
+Summary: Python package for plasma science
 
-Development: https://github.com/plasmapy/plasmapy
+Development: https://github.com/PlasmaPy/plasmapy
 
-Documentation: http://plasmapy.readthedocs.io/en/docs/
+Documentation: http://docs.plasmapy.org
 
 PlasmaPy is a community-developed and community-driven Python package for plasma physics.
 
@@ -38,7 +38,8 @@ Current release info
 Installing plasmapy
 ===================
 
-Installing `plasmapy` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `plasmapy` from the `conda-forge` channel can be achieved by
+adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
