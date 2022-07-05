@@ -122,7 +122,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@SolarDrew](https://github.com/SolarDrew/)
 * [@StanczakDominik](https://github.com/StanczakDominik/)
 * [@rocco8773](https://github.com/rocco8773/)
-
+* [@namurphy](https://github.com/namurphy/)
