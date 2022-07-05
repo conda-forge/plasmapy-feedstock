@@ -53,7 +53,9 @@ test:
   commands:
     - pytest --pyargs plasmapy -k "not test_grid_methods"
   requires:
+    - hypothesis
     - pytest
+    - pytest-regressions
 
 about:
   home: https://github.com/PlasmaPy/PlasmaPy
