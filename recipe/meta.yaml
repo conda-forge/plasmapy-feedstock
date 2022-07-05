@@ -15,29 +15,29 @@ build:
 
 requirements:
   host:
-    - python >= 3.8
+    - python >=3.8
     - pip
-    - numpy >= 1.19.0
-    - setuptools >= 41.2
+    - numpy >=1.19.0
+    - setuptools >=41.2
     - setuptools_scm
-    - wheel >= 0.29.0
+    - wheel >=0.29.0
   run:
     - python >=3.8
     - {{ pin_compatible('numpy') }}
-    - astropy >= 4.3.1
-    - cached-property >= 1.5.2
-    - h5py >= 3.0.0
-    - ipywidgets >= 7.6.5
-    - lmfit >= 1.0.0
-    - matplotlib >= 3.3.0
-    - mpmath >= 1.2.1
+    - astropy >=4.3.1
+    - cached-property >=1.5.2
+    - h5py >=3.0.0
+    - ipywidgets >=7.6.5
+    - lmfit >=1.0.0
+    - matplotlib-base >=3.3.0
+    - mpmath >=1.2.1
     - numba
     - packaging
-    - pandas >= 1.0.0
-    - scipy >= 1.5.0
-    - tqdm >= 4.41.0
+    - pandas >=1.0.0
+    - scipy >=1.5.0
+    - tqdm >=4.41.0
     - voila
-    - xarray >= 0.15.0
+    - xarray >=0.15.0
 
 test:
   imports:
