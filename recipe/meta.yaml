@@ -42,12 +42,14 @@ requirements:
 test:
   imports:
     - plasmapy
+    - plasmapy.analysis
+    - plasmapy.diagnostics
+    - plasmapy.dispersion
+    - plasmapy.formulary
     - plasmapy.particles
     - plasmapy.plasma
-    - plasmapy.formulary
-    - plasmapy.utils
-    - plasmapy.diagnostics
     - plasmapy.simulation
+    - plasmapy.utils
   commands:
     - pytest --pyargs plasmapy -k "not test_grid_methods"
   requires:
