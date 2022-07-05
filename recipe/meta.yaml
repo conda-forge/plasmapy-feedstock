@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/plasmapy/plasmapy-{{ version }}.tar.gz
-  sha256: a2d36f6b43e6f29435c0bf3b2a754889f119f29ac8d8e862f269855face75ba2
+  sha256: cc068e0fbc2e36d6192c89811b5ff3495097ba3c879dcf44326aeae3fd259924
 
 build:
   number: 0
@@ -22,7 +22,7 @@ requirements:
     - setuptools_scm
     - wheel >= 0.29.0
   run:
-    - python >=3.7
+    - python >=3.8
     - {{ pin_compatible('numpy') }}
     - astropy >= 4.3.1
     - cached-property >= 1.5.2
