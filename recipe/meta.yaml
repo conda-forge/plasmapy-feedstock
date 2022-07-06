@@ -63,7 +63,7 @@ about:
   license_family: BSD
   license_file: LICENSE.md
   summary: Python package for plasma science
-  description: PlasmaPy is a community-developed and Python package for plasma research and education.
+  description: PlasmaPy is a community-developed Python package for plasma research and education.
   doc_url: http://docs.plasmapy.org/en/stable
   dev_url: https://github.com/PlasmaPy/plasmapy
 
