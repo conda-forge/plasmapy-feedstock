@@ -17,7 +17,8 @@ requirements:
   host:
     - python >=3.8
     - pip
-    - numpy >=1.19.0, <1.22
+    - numba
+    - numpy >=1.19.0
     - setuptools >=41.2
     - setuptools_scm
     - wheel >=0.29.0
