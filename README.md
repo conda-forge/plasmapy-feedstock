@@ -11,9 +11,9 @@ Summary: Python package for plasma science
 
 Development: https://github.com/PlasmaPy/plasmapy
 
-Documentation: http://docs.plasmapy.org
+Documentation: http://docs.plasmapy.org/en/stable
 
-PlasmaPy is a community-developed and community-driven Python package for plasma physics.
+PlasmaPy is a community-developed Python package for plasma research and education.
 
 Current build status
 ====================
@@ -38,8 +38,7 @@ Current release info
 Installing plasmapy
 ===================
 
-Installing `plasmapy` from the `conda-forge` channel can be achieved by
-adding `conda-forge` to your channels with:
+Installing `plasmapy` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
@@ -75,11 +74,14 @@ Alternatively, `mamba repoquery` may provide more information:
 ```
 # Search all versions available on your platform:
 mamba repoquery search plasmapy --channel conda-forge
+
 # List packages depending on `plasmapy`:
 mamba repoquery whoneeds plasmapy --channel conda-forge
+
 # List dependencies of `plasmapy`:
 mamba repoquery depends plasmapy --channel conda-forge
 ```
+
 
 About conda-forge
 =================
@@ -148,5 +150,6 @@ Feedstock Maintainers
 =====================
 
 * [@StanczakDominik](https://github.com/StanczakDominik/)
-* [@rocco8773](https://github.com/rocco8773/)
 * [@namurphy](https://github.com/namurphy/)
+* [@rocco8773](https://github.com/rocco8773/)
+
