@@ -17,13 +17,13 @@ requirements:
   host:
     - python >=3.8
     - pip
-    - numpy >=1.19.0
+    - numpy >=1.19.0, <1.22
     - setuptools >=41.2
     - setuptools_scm
     - wheel >=0.29.0
   run:
     - python >=3.8
-    - {{ pin_compatible('numpy') }}
+    - numpy >=1.19.0, <1.22
     - astropy >=4.3.1
     - cached-property >=1.5.2
     - h5py >=3.0.0
