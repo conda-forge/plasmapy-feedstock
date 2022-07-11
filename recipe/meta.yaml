@@ -9,7 +9,7 @@ source:
   sha256: cc068e0fbc2e36d6192c89811b5ff3495097ba3c879dcf44326aeae3fd259924
 
 build:
-  number: 1
+  number: 2
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   noarch: python
 
@@ -17,8 +17,7 @@ requirements:
   host:
     - python >=3.8
     - pip
-    - numba
-    - numpy >=1.19.0
+    - numpy >=1.19.0, <1.22
     - setuptools >=41.2
     - setuptools_scm
     - wheel >=0.29.0
