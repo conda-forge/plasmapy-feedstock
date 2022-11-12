@@ -56,7 +56,7 @@ test:
     - pytest --pyargs plasmapy -k "not test_grid_methods" --ignore plasmapy/tests
   requires:
     - hypothesis
-    - pytest
+    - pytest>=7.2.0
     - pytest-regressions
 
 about:
