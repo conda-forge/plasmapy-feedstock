@@ -38,6 +38,8 @@ requirements:
     - tqdm >=4.41.0
     - voila
     - xarray >=0.15.0
+    - requests >= 2.27.1
+    - wrapt
 
 test:
   imports:
