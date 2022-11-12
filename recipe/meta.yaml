@@ -53,7 +53,7 @@ test:
     - plasmapy.simulation
     - plasmapy.utils
   commands:
-    - pytest --pyargs plasmapy -k "not test_grid_methods"
+    - pytest --pyargs plasmapy -k "not test_grid_methods" --ignore "plasmapy/tests/test_requirements.py"
   requires:
     - hypothesis
     - pytest
