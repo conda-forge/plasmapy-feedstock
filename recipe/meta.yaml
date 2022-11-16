@@ -1,4 +1,4 @@
-{% set version = "0.8.1" %}
+{% set version = "0.9.1" %}
 
 package:
   name: plasmapy
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/plasmapy/plasmapy-{{ version }}.tar.gz
-  sha256: cc068e0fbc2e36d6192c89811b5ff3495097ba3c879dcf44326aeae3fd259924
+  sha256: b328d768ba6d297b42dd613621b150cea46b21e708f6f7e5d15a57c9edefdca1
 
 build:
-  number: 2
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   noarch: python
 
@@ -24,7 +24,7 @@ requirements:
   run:
     - python >=3.8
     - {{ pin_compatible('numpy') }}
-    - astropy >=4.3.1
+    - astropy >=5.0.1
     - cached-property >=1.5.2
     - h5py >=3.0.0
     - ipywidgets >=7.6.5
@@ -34,9 +34,11 @@ requirements:
     - numba
     - packaging
     - pandas >=1.0.0
+    - pytest >=5.4.0
     - scipy >=1.5.0
     - tqdm >=4.41.0
-    - voila
+    - voila >=0.2.15
+    - wrapt
     - xarray >=0.15.0
 
 test:
