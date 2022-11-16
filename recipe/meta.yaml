@@ -24,7 +24,7 @@ requirements:
   run:
     - python >=3.8
     - {{ pin_compatible('numpy') }}
-    - astropy >=4.3.1
+    - astropy >=5.0.1
     - cached-property >=1.5.2
     - h5py >=3.0.0
     - ipywidgets >=7.6.5
@@ -34,9 +34,11 @@ requirements:
     - numba
     - packaging
     - pandas >=1.0.0
+    - pytest >=5.4.0
     - scipy >=1.5.0
     - tqdm >=4.41.0
-    - voila
+    - voila >=0.2.15
+    - wrapt
     - xarray >=0.15.0
 
 test:
