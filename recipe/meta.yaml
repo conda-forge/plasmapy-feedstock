@@ -51,7 +51,7 @@ test:
     - plasmapy.simulation
     - plasmapy.utils
   commands:
-    - pytest --pyargs plasmapy -k "not test_grid_methods"
+    - tox
   requires:
     - hypothesis >=6.97.4
     - pytest >=8.0.2
