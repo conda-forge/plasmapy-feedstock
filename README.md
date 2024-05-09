@@ -9,7 +9,7 @@ Package license: BSD-3-Clause
 
 Summary: Python package for plasma science
 
-Development: https://github.com/PlasmaPy/plasmapy
+Development: https://github.com/PlasmaPy/PlasmaPy
 
 Documentation: http://docs.plasmapy.org/en/stable
 
