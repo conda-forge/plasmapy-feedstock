@@ -60,7 +60,6 @@ test:
     - pytest-xdist >=3.5.0
     - tomli >=2.0.1
     - tox >=4.12.1
-    - tox-uv >=1.7.0
 
 about:
   home: https://github.com/PlasmaPy/PlasmaPy
