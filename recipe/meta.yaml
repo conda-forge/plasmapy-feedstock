@@ -1,4 +1,4 @@
-{% set version = "2024.7.0" %}
+{% set version = "2024.10.0" %}
 
 package:
   name: plasmapy
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/plasmapy/plasmapy-{{ version }}.tar.gz
-  sha256: bd94e9ff4dd24d41fbe436c59097d97ffb314f9dcd615049b154a423fbc03f9e
+  sha256: 5219148202c146e8fc1e14b8707a7e8ca44224a231070643fec4c0fb45c12fb9
 
 build:
   number: 0
