@@ -9,7 +9,7 @@ source:
   sha256: 5219148202c146e8fc1e14b8707a7e8ca44224a231070643fec4c0fb45c12fb9
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   noarch: python
 
@@ -23,7 +23,7 @@ requirements:
     - wheel >=0.37.0
   run:
     - python >=3.10
-    - astropy >=5.1
+    - astropy-base >=5.1
     - h5py >=3.7.0
     - ipywidgets >=7.7.0
     - lmfit >=1.1.0
