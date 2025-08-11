@@ -32,7 +32,9 @@ requirements:
     - numpy >=1.25
     - packaging >=22
     - pandas >=2
+    - requests >=2.28
     - scipy >=1.10
+    - setuptools >=66
     - tqdm >=4.65
     - wrapt >=1.15
     - xarray >=2023.7
