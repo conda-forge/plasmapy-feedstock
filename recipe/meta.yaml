@@ -1,5 +1,5 @@
 {% set python_min = "3.11" %}
-{% set version = "2025.8.0" %}
+{% set version = "2025.10.0" %}
 
 package:
   name: plasmapy
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/plasmapy/plasmapy-{{ version }}.tar.gz
-  sha256: b26e6237000d8b69ffb98baa3f3d6043eb6c1828a3d0a1b44ff4053cf61afb90
+  sha256: cfeb6f2785906e080977292e9b7f3bb6e71cdd8ef7273a877959a113d9e56295
 
 build:
   number: 0
