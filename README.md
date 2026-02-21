@@ -11,7 +11,7 @@ Summary: Python package for plasma science
 
 Development: https://github.com/PlasmaPy/PlasmaPy
 
-Documentation: http://docs.plasmapy.org/en/stable
+Documentation: https://docs.plasmapy.org/en/stable
 
 PlasmaPy is a community-developed Python package for plasma research and education.
 
@@ -149,7 +149,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@StanczakDominik](https://github.com/StanczakDominik/)
 * [@namurphy](https://github.com/namurphy/)
 * [@rocco8773](https://github.com/rocco8773/)
 
